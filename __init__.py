@@ -230,7 +230,7 @@ class BrushSculptDraw(bpy.types.Operator):
 
         scene = context.scene
 
-        bpy.ops.paint.brush_select(sculpt_tool='SCULPT_DRAW')
+        bpy.ops.paint.brush_select(sculpt_tool='DRAW')
 
         return {'FINISHED'}
 
